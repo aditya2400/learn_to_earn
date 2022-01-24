@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>  </title>
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+
+</head>	
+<body>
+
+<div class="form-container">
+    <form action="#" method="POST" class="form-wrap">
+        <h1>Forgotten Password</h1><br><br>
+        <h2 style="color: #fff">Enter your email address:</h2><br>
+        <div class="form-box">
+            <input type="text" placeholder="Mail-ID" />
+        </div><br><br>
+
+        <div class="form-submit">
+            <input style="background-color: #00BFFF; color: #fff; padding: 5px 15px;font-size: 20px;border-radius: 12px; font-weight:bold;" type="button" name="answer" value="SEND OTP" onclick="showDiv()" /><br>
+        </div>
+        <div id="welcomeDiv"  style="display:none; color: #fff;font-weight:bold;" class="answer_list" ><br>Enter OTP: 
+        <br><br><div class="form-box" >
+            <input type="text" placeholder="Enter OTP here" /><br><br>
+            <button class="buttons" style="text-decoration: none;background-color: Aqua ;text-align: center;padding: 1px 7px;font-size: 12px;border-radius: 12px;color: Black;" onclick="run()">Verify</button>
+            
+        </div>
+    </div>
+        <br><br>
+        <p align="right">
+<input style="border-radius: 12px;padding: 3px 10px " type="button" name="answer" value="Resend OTP" onclick="showDiv()" /></p><br>   
+</form>
+    
+</div>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script>
+            function run() {
+                alert("You will receive a reset password link to your registered email."); }
+        
+</script>
+<script src="quiz.js"></script>
+</body>
+</html>	

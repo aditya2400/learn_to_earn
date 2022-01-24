@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>animated background with pure css and html</title>
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+	<link href="style4.css" rel="stylesheet">
+</head>
+<body>
+	<div class="banner-text">
+		<h1>YOU ARE SAFE !</h1><br>
+		<h2>WELCOME TO COLLEGE...</h2>
+		<p> *Recommended preventive measures*<br>1) Wear a face mask.<br>2) Maintain at least six feet of distance between yoursekf and others.<br>3) Avoid large gatherings.<br>4) Socialize outdoors.<br>5) Sanitize your hands regurlarly.</p>
+		<p style="text-align: left; font-size: 25px">Please upload your Vaccination Certificate </p>&nbsp;&nbsp;
+		<input style="font-size: 17px" type="file" id="myFile" name="filename"><br><br>
+		<button class="buttons" style="text-decoration: none;background-color: Aqua ;text-align: center;padding: 15px 15px;border-radius: 10px;color: Black;" onclick="run()">Submit</button>	
+		<h1>You will recieve this result on your E-mail. You have to show this Email to enter into Campus</h1>
+	</div>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script>
+            function run() {
+                swal("Your Certificate has been Submitted successfully.") 
+            }        
+</script>
+	<div class="animation-area">
+		<ul class="box-area">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+
+</body>
+</html>
